@@ -1,9 +1,34 @@
 {
-  "version": 1,
+  "version": 2,
   "monitors": {
     "fine-cigar-4x8": {
-      "available": false,
-      "changed_at": "2026-07-11T21:45:02.793544+00:00"
+      "changed_at": "2026-07-11T21:45:02.793544+00:00",
+      "status": "unavailable",
+      "last_success_at": "2026-09-19T08:49:00.983463+00:00",
+      "last_summary": "Variation attribute_pa_size=4x8 is unavailable",
+      "last_url": "https://www.bagsofbags.com/product/fine-cigar-zip-bags/",
+      "consecutive_failures": 0,
+      "deliveries": {}
+    },
+    "peterson-system-302": {
+      "status": "unavailable",
+      "previous_status": null,
+      "changed_at": "2026-09-19T08:49:01.581612+00:00",
+      "last_success_at": "2026-09-19T08:49:01.581612+00:00",
+      "last_summary": "6 matching Laudisi product card(s): unavailable",
+      "last_url": "https://www.laudisi.com/petersonpipes.cfm/system-standard-12",
+      "consecutive_failures": 0,
+      "deliveries": {}
+    },
+    "peterson-system-303": {
+      "status": "unavailable",
+      "previous_status": null,
+      "changed_at": "2026-09-19T08:49:01.593250+00:00",
+      "last_success_at": "2026-09-19T08:49:01.593250+00:00",
+      "last_summary": "6 matching Laudisi product card(s): unavailable",
+      "last_url": "https://www.laudisi.com/petersonpipes.cfm/system-standard-12",
+      "consecutive_failures": 0,
+      "deliveries": {}
     }
   }
 }
