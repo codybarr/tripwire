@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "monitors": {
+    "fine-cigar-4x8": {
+      "available": false,
+      "changed_at": "2026-07-11T21:45:02.793544+00:00"
+    }
+  }
+}

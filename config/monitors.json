@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "notifiers": {
+    "ntfy": {
+      "type": "ntfy",
+      "topic_env": "NTFY_TOPIC",
+      "priority": "urgent"
+    }
+  },
+  "monitors": [
+    {
+      "id": "fine-cigar-4x8",
+      "enabled": true,
+      "name": "Fine Cigar Zip Bags — 4x8",
+      "probe": {
+        "type": "woocommerce.variation",
+        "url": "https://www.bagsofbags.com/product/fine-cigar-zip-bags/",
+        "attribute": "attribute_pa_size",
+        "value": "4x8"
+      },
+      "notify": {
+        "on": ["available"],
+        "notifiers": ["ntfy"]
+      }
+    },
+    {
+      "id": "peterson-system-302",
+      "enabled": true,
+      "name": "Peterson System Standard (302) pipe",
+      "probe": {
+        "type": "laudisi.product_cards",
+        "url": "https://www.laudisi.com/petersonpipes.cfm/system-standard-12",
+        "name_contains_any": ["(302)"]
+      },
+      "notify": {
+        "on": ["available"],
+        "notifiers": ["ntfy"]
+      }
+    },
+    {
+      "id": "peterson-system-303",
+      "enabled": true,
+      "name": "Peterson System Standard (303) pipe",
+      "probe": {
+        "type": "laudisi.product_cards",
+        "url": "https://www.laudisi.com/petersonpipes.cfm/system-standard-12",
+        "name_contains_any": ["(303)"]
+      },
+      "notify": {
+        "on": ["available"],
+        "notifiers": ["ntfy"]
+      }
+    }
+  ]
+}
