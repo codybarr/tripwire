@@ -4,7 +4,7 @@
     "fine-cigar-4x8": {
       "changed_at": "2026-07-11T21:45:02.793544+00:00",
       "status": "unavailable",
-      "last_success_at": "2026-10-05T07:03:59.584937+00:00",
+      "last_success_at": "2026-10-05T16:01:38.774320+00:00",
       "last_summary": "Variation attribute_pa_size=4x8 is unavailable",
       "last_url": "https://www.bagsofbags.com/product/fine-cigar-zip-bags/",
       "consecutive_failures": 0,
@@ -19,8 +19,10 @@
       "last_success_at": "2026-10-05T07:04:00.271075+00:00",
       "last_summary": "6 matching Laudisi product card(s): unavailable",
       "last_url": "https://www.laudisi.com/petersonpipes.cfm/system-standard-12",
-      "consecutive_failures": 0,
-      "deliveries": {}
+      "consecutive_failures": 1,
+      "deliveries": {},
+      "last_error": "Could not fetch https://www.laudisi.com/petersonpipes.cfm/system-standard-12: HTTP Error 522: <none>",
+      "last_failure_at": "2026-10-05T16:01:58.573343+00:00"
     },
     "peterson-system-303": {
       "status": "unavailable",
@@ -29,8 +31,10 @@
       "last_success_at": "2026-10-05T07:04:00.278449+00:00",
       "last_summary": "6 matching Laudisi product card(s): unavailable",
       "last_url": "https://www.laudisi.com/petersonpipes.cfm/system-standard-12",
-      "consecutive_failures": 0,
-      "deliveries": {}
+      "consecutive_failures": 1,
+      "deliveries": {},
+      "last_error": "Could not fetch https://www.laudisi.com/petersonpipes.cfm/system-standard-12: HTTP Error 522: <none>",
+      "last_failure_at": "2026-10-05T16:02:18.080952+00:00"
     }
   }
 }
